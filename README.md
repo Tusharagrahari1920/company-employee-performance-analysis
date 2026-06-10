@@ -1,25 +1,37 @@
-# Company Employee Performance Analysis Dashboard
+## Database Schema
 
-## Tools Used
-- MySQL
-- SQL
-- Power BI
-- DAX
+The project contains the following tables:
 
-## Project Overview
-This project analyzes employee performance, salary distribution, department-wise salary allocation, and employee metrics using SQL and Power BI.
+- Employees
+- Departments
+- Salary
+- Performance
 
-## Dashboard Features
+Relationships were created using Employee ID and Department ID.
+
+## Key SQL Concepts Used
+
+- Joins
+- Aggregations
+- Group By
+- Views
+- Stored Procedures
+- Indexing
+
+## Power BI Features
+
 - KPI Cards
+- Dynamic Dashboard Title
 - Employee Performance Analysis
-- Department Salary Distribution
-- Salary by Department
-- Employee Count by Department
-- Dynamic Filters and Tooltips
+- Salary Distribution Analysis
+- Department-wise Salary Comparison
+- Slicers for Department and City
+- Custom DAX Measures
 
-## Skills Demonstrated
-- SQL Queries
-- Data Modeling
-- Power BI Dashboard Design
-- DAX Measures
-- Data Visualization
+## Key Metrics
+
+- Total Employees
+- Average Salary
+- Total Projects
+- Average Performance Score
+- High Performers Count
